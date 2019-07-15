@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+.menu {
+		background-image:url(../image/fond.png);
+		background-size: 100%;
+	background-repeat: no-repeat;
+}
+.menu ul {
+	overflow: hidden;
+	margin: 0;
+	min-height: 100px;
+}
+.menu li {
+	float: left;
+	list-style: none;
+	font-size: 20px;
+	padding: 10px 12px 10px 13px;
+}
+#current {
+	border-bottom: 3px solid white;
+}
+.menu a {
+	color : white;
+	text-decoration: none;
+}
+#butla {
+	float: right;
+	margin: 25px 25px;
+	border: 2px solid #8b94a3;
+	border-radius: 25px;
+}
+#butla:hover {
+background-color: red;
+}
+.content {
+	margin: auto;
+	width: 80%;
+}
+.left {
+	width: 60%;
+	float: left;
+}
+.card {
+	margin: 25px 20px;
+	width: 100%;
+	border: 3px solid #aab2bf;
+}
+.right {
+	float: left;
+	margin: 25px 10%;
+	width: 20%;
+
+}
+#lh {
+	display: none;
+}
